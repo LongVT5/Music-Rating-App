@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="album-info d-flex">
+        <img class="album-cover m-5" src="./../../assets/adele-30.png" alt="">
+        <div class="album-title-group">
+            <h6>ALBUM</h6>
+            <div class="album-title">30</div>
+            <div class="related-info">
+                <img class="singer-ava" src="./../../assets/adele-30.png" alt="">
+                <span class="singer-name ml-2">Adele</span>
+                <span> 2021 12 songs, 59 min</span>
+            </div>
+        </div>
+    </div>
+    <div class="icon-list">
+
+    </div>
+    <div class="tracklist">
+        <table class="table table-borderless tracklist-table">
+            <thead>
+              <tr class="titles">
+                <th class="order-number" scope="col">#</th>
+                <th class="song-name" scope="col">First</th>
+                <th class="score" scope="col">Last</th>
+                <th class="like" scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of [1,2,3]">
+                <th class="order-number" scope="row">1</th>
+                <td class="song-name">Mark</td>
+                <td class="score">Otto</td>
+                <td class="like">@mdo</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+$display: 'flex';
+
+.announcement-banner {
+    height: 200px;
+    background-color: black;
+}
+        
+.recent-playlists {
+    height: 100px;
+    .playlist {
+        height: 80px;
+        width: 370px;
+        background-color: rgb(43, 43, 43);
+        border-radius: 5px;
+        margin-left: 5px;
+        .playlist-img {
+            width: 20%;
+        }
+        .playlist-name {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            padding-left: 20px;
+            font-weight: bold;
+        }
+    }
+}
+.category-frame {
+    height: 400px;
+    .category-item-list {
+        display: flex;
+        .category-item {
+            background-color: rgb(43, 43, 43);
+            width: 200px;
+            height: 270px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .item-image {
+            width: 98%;
+            }
+        .item-description {
+            color: rgb(173, 174, 175);
+        }
+    }
+}
